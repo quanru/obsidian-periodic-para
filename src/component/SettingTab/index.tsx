@@ -166,6 +166,14 @@ export const SettingTab = (props: {
                           >
                             <Input />
                           </Form.Item>
+                          <Form.Item name="dailyRecordVersion" label="Version:">
+                            <Select
+                              options={[
+                                { value: 'v1', label: '<0.22.0' },
+                                { value: 'v2', label: '>=0.22.0' },
+                              ]}
+                            />
+                          </Form.Item>
                           <Form.Item
                             help="Warning While Daily Note Not Exist"
                             name="dailyRecordWarning"

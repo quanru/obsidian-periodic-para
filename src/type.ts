@@ -13,6 +13,7 @@ export interface PluginSettings {
   dailyRecordHeader: string;
   dailyRecordAPI: string;
   dailyRecordToken: string;
+  dailyRecordVersion: string;
   dailyRecordWarning: boolean;
   useDailyRecord: boolean;
   usePeriodicNotes: boolean;

@@ -20,6 +20,7 @@ export const DEFAULT_SETTINGS: PluginSettings = {
   dailyRecordHeader: 'Daily Record',
   dailyRecordAPI: '',
   dailyRecordToken: '',
+  dailyRecordVersion: 'v1',
   dailyRecordWarning: true,
   useDailyRecord: false,
   usePeriodicNotes: true,
@@ -27,7 +28,7 @@ export const DEFAULT_SETTINGS: PluginSettings = {
   usePARAAdvanced: false,
   paraIndexFilename: 'readme',
   weekStart: -1,
-  useChineseCalendar: false
+  useChineseCalendar: false,
 };
 
 export class SettingTabView extends PluginSettingTab {
