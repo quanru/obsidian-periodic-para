@@ -221,7 +221,7 @@ export const SettingTab = (props: {
                             <Input
                               placeholder={
                                 DEFAULT_SETTINGS.dailyRecordAPI ||
-                                'https://your-use-memos.com/api/v1/memo'
+                                'https://your-use-memos.com'
                               }
                             />
                           </Form.Item>

@@ -154,7 +154,7 @@ export function generateFileLink(resource: ResourceType): string {
 }
 
 export function generateFileName(resource: ResourceType): string {
-  return `${resource.id}-${resource.filename.replace(/[/\\?%*:|"<>]/g, '-')}`;
+  return `${resource.id || resource.name?.split('/')[1]}-${resource.filename.replace(/[/\\?%*:|"<>]/g, '-')}`;
 }
 
 export function logMessage(message: string, level: LogLevel = LogLevel.info) {
